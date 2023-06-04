@@ -1,0 +1,27 @@
+{
+  "name": "vitrine-dnz",
+  "version": "1.0.0",
+  "description": "vitrine de produtos dnz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vr7798/vitrine-dnz.git"
+  },
+  "keywords": [
+    "vr7798"
+  ],
+  "author": "vr7798",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vr7798/vitrine-dnz/issues"
+  },
+  "homepage": "https://github.com/vr7798/vitrine-dnz#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}
