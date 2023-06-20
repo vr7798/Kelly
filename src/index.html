@@ -1,156 +1,764 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Filmes</title>
+    <title>k totosa</title>
     <style>
       /* Estilos CSS para o layout */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #222;
+        margin: 0;
+        padding: 20px;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #fff;
+      }
+      .season {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .season-icon {
+        width: 120px;
+        height: 120px;
+        margin-right: 20px;
+        border-radius: 50%;
+        object-fit: cover;
+        background-color: #333;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      }
+      .season-title {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-size: 36px;
+      }
       .carousel {
         display: flex;
         overflow-x: auto;
+        overflow-y: scroll; /* Adiciona o scroll vertical */
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
         -webkit-overflow-scrolling: touch;
-        padding: 30px;
+        padding: 10px;
+        height: 500px; /* Altura do carousel */
       }
+
       .movie {
         flex: 0 0 auto;
         margin-right: 10px;
         text-align: center;
-        width: 400px; /* Largura fixa do cartão do filme */
+        width: 350px; /* Largura fixa do cartão do filme */
         scroll-snap-align: start;
+        background-color: #333;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease;
+      }
+      .movie:hover {
+        transform: scale(1.05);
       }
       .movie img {
         width: 100%; /* A imagem do filme ocupará 100% da largura do cartão */
         height: auto; /* A altura da imagem será ajustada proporcionalmente */
         cursor: pointer;
+        border-radius: 10px 10px 0 0;
+      }
+      .movie p {
+        margin: 10px;
+        font-size: 18px;
+        color: #fff;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
       @media only screen and (max-width: 600px) {
         /* Estilos específicos para dispositivos com largura máxima de 600px */
         .movie {
           width: 100%; /* O cartão do filme ocupará 100% da largura disponível */
-          margin: 10px 0; /* Adiciona espaço vertical entre os cartões */
+          margin: 100px 0; /* Adiciona espaço vertical entre os cartões */
         }
       }
     </style>
   </head>
   <body>
+    <h1>totosa</h1>
+    <div class="season">
+      <img class="season-icon" src="ico.webp" alt="Ícone Temporada 01" />
+      <h1 class="season-title">Temporada 01</h1>
+    </div>
     <div class="carousel">
       <div class="movie">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMBdOSJikRAdqgcyxPlLgGPQ9YvCf_uD3yg&usqp=CAU"
-          alt="Rick And Morty S01E01"
-          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87172.mp4')"
-        />
-        <h2>Rick And Morty S01E01</h2>
-      </div>
-      <div class="movie">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMBdOSJikRAdqgcyxPlLgGPQ9YvCf_uD3yg&usqp=CAU"
+          src="http://p6.vc/brb"
           alt="Episódio: Rick And Morty S01E01"
           onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87172.mp4')"
         />
-        <h2>Episódio: Rick And Morty S01E01</h2>
-      </div>
-      <div class="movie">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMBdOSJikRAdqgcyxPlLgGPQ9YvCf_uD3yg&usqp=CAU"
-          alt="Episódio: Rick And Morty S01E01"
-          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87172.mp4')"
-        />
-        <h2>Episódio: Rick And Morty S01E01</h2>
+        <p>Episódio 1: Piloto</p>
       </div>
 
       <div class="movie">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMBdOSJikRAdqgcyxPlLgGPQ9YvCf_uD3yg&usqp=CAU"
+          src="http://p6.vc/brb"
           alt="Episódio: Rick And Morty S01E02"
           onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87173.mp4')"
         />
-        <h2>Episódio: Rick And Morty S01E02</h2>
+        <p>Episódio 2: Lawnmower Dog</p>
       </div>
 
       <div class="movie">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMBdOSJikRAdqgcyxPlLgGPQ9YvCf_uD3yg&usqp=CAU"
+          src="http://p6.vc/brb"
           alt="Episódio: Rick And Morty S01E03"
           onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87174.mp4')"
         />
-        <h2>Episódio: Rick And Morty S01E03</h2>
+        <p>Episódio 3: Anatomy Park</p>
       </div>
 
       <div class="movie">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMBdOSJikRAdqgcyxPlLgGPQ9YvCf_uD3yg&usqp=CAU"
+          src="http://p6.vc/brb"
           alt="Episódio: Rick And Morty S01E04"
           onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87175.mp4')"
         />
-        <h2>Episódio: Rick And Morty S01E04</h2>
+        <p>Episódio 4: M. Night Shaym-Aliens!</p>
       </div>
 
       <div class="movie">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMBdOSJikRAdqgcyxPlLgGPQ9YvCf_uD3yg&usqp=CAU"
+          src="http://p6.vc/brb"
           alt="Episódio: Rick And Morty S01E05"
           onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87176.mp4')"
         />
-        <h2>Episódio: Rick And Morty S01E05</h2>
+        <p>Episódio 5: Meeseeks and Destroy</p>
       </div>
 
       <div class="movie">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMBdOSJikRAdqgcyxPlLgGPQ9YvCf_uD3yg&usqp=CAU"
+          src="http://p6.vc/brb"
           alt="Episódio: Rick And Morty S01E06"
           onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87177.mp4')"
         />
-        <h2>Episódio: Rick And Morty S01E06</h2>
+        <p>Episódio 6: Rick Potion #9</p>
       </div>
 
       <div class="movie">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMBdOSJikRAdqgcyxPlLgGPQ9YvCf_uD3yg&usqp=CAU"
+          src="http://p6.vc/brb"
           alt="Episódio: Rick And Morty S01E07"
           onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87178.mp4')"
         />
-        <h2>Episódio: Rick And Morty S01E07</h2>
+        <p>Episódio 7: Raising Gazorpazorp</p>
       </div>
 
       <div class="movie">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMBdOSJikRAdqgcyxPlLgGPQ9YvCf_uD3yg&usqp=CAU"
+          src="http://p6.vc/brb"
           alt="Episódio: Rick And Morty S01E08"
           onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87179.mp4')"
         />
-        <h2>Episódio: Rick And Morty S01E08</h2>
+        <p>Episódio 8: Rixty Minutes</p>
       </div>
 
       <div class="movie">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMBdOSJikRAdqgcyxPlLgGPQ9YvCf_uD3yg&usqp=CAU"
+          src="http://p6.vc/brb"
           alt="Episódio: Rick And Morty S01E09"
           onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87180.mp4')"
         />
-        <h2>Episódio: Rick And Morty S01E09</h2>
+        <p>Episódio 9: Something Ricked This Way Comes</p>
       </div>
 
       <div class="movie">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMBdOSJikRAdqgcyxPlLgGPQ9YvCf_uD3yg&usqp=CAU"
+          src="http://p6.vc/brb"
           alt="Episódio: Rick And Morty S01E10"
           onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87181.mp4')"
         />
-        <h2>Episódio: Rick And Morty S01E10</h2>
+        <p>Episódio 10: Close Rick-Counters of the Rick Kind</p>
       </div>
 
       <div class="movie">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMBdOSJikRAdqgcyxPlLgGPQ9YvCf_uD3yg&usqp=CAU"
+          src="http://p6.vc/brb"
           alt="Episódio: Rick And Morty S01E11"
           onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87182.mp4')"
         />
-        <h2>Episódio: Rick And Morty S01E11</h2>
+        <p>Episódio 11: Ricksy Business</p>
+      </div>
+    </div>
+
+    <div class="season">
+      <img class="season-icon" src="ico.webp" alt="Ícone Temporada 01" />
+      <h1 class="season-title">Temporada 02</h1>
+    </div>
+    <div class="carousel">
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S02E01"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87183.mp4')"
+        />
+        <p>Episódio 1: A Rickle in Time</p>
       </div>
 
-      <!-- Resto dos cards de filmes... -->
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S02E02"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87184.mp4')"
+        />
+        <p>Episódio 2: Mortynight Run</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S02E03"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87185.mp4')"
+        />
+        <p>Episódio 3: Auto Erotic Assimilation</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S02E04"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87186.mp4')"
+        />
+        <p>Episódio 4: Total Rickall</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S02E05"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87187.mp4')"
+        />
+        <p>Episódio 5: Get Schwifty</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S02E06"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87188.mp4')"
+        />
+        <p>Episódio 6: The Ricks Must Be Crazy</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S02E07"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87189.mp4')"
+        />
+        <p>Episódio 7: Big Trouble in Little Sanchez</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S02E08"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87190.mp4')"
+        />
+        <p>Episódio 8: Interdimensional Cable 2: Tempting Fate</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S02E09"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87191.mp4')"
+        />
+        <p>Episódio 9: Look Who's Purging Now</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S02E10"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87192.mp4')"
+        />
+        <p>Episódio 10: The Wedding Squanchers</p>
+      </div>
+    </div>
+
+    <div class="season">
+      <img class="season-icon" src="ico.webp" alt="Ícone Temporada 01" />
+      <h1 class="season-title">Temporada 03</h1>
+    </div>
+    <div class="carousel">
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S03E01"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87193.mp4')"
+        />
+        <p>Episódio 1: The Rickshank Rickdemption</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S03E02"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87194.mp4')"
+        />
+        <p>Episódio 2: Rickmancing the Stone</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S03E03"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87195.mp4')"
+        />
+        <p>Episódio 3: Pickle Rick</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S03E04"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87196.mp4')"
+        />
+        <p>Episódio 4: Vindicators 3: The Return of Worldender</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S03E05"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87197.mp4')"
+        />
+        <p>Episódio 5: The Whirly Dirly Conspiracy</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S03E06"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87198.mp4')"
+        />
+        <p>Episódio 6: Rest and Ricklaxation</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S03E07"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87199.mp4')"
+        />
+        <p>Episódio 7: The Ricklantis Mixup (Tales From the Citadel)</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S03E08"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87200.mp4')"
+        />
+        <p>Episódio 8: Morty's Mind Blowers</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S03E09"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87201.mp4')"
+        />
+        <p>Episódio 9: The ABC's of Beth</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S03E10"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87202.mp4')"
+        />
+        <p>Episódio 10: The Rickchurian Mortydate</p>
+      </div>
+      <div class="carousel">
+        <div class="movie">
+          <img
+            src="http://p6.vc/brb"
+            alt="Rick And Morty S04E01"
+            onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87203.mp4')"
+          />
+          <p>Episódio 1: Edge of Tomorty: Rick, Die, Rickpeat</p>
+        </div>
+
+        <div class="movie">
+          <img
+            src="http://p6.vc/brb"
+            alt="Rick And Morty S04E02"
+            onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87204.mp4')"
+          />
+          <p>Episódio 2: The Old Man and the Seat</p>
+        </div>
+
+        <div class="movie">
+          <img
+            src="http://p6.vc/brb"
+            alt="Rick And Morty S04E03"
+            onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87205.mp4')"
+          />
+          <p>Episódio 3: One Crew Over the Crewcoo's Morty</p>
+        </div>
+
+        <div class="movie">
+          <img
+            src="http://p6.vc/brb"
+            alt="Rick And Morty S04E04"
+            onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87206.mp4')"
+          />
+          <p>Episódio 4: Claw and Hoarder: Special Ricktim's Morty</p>
+        </div>
+
+        <div class="movie">
+          <img
+            src="http://p6.vc/brb"
+            alt="Rick And Morty S04E05"
+            onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87207.mp4')"
+          />
+          <p>Episódio 5: Rattlestar Ricklactica</p>
+        </div>
+
+        <div class="movie">
+          <img
+            src="http://p6.vc/brb"
+            alt="Rick And Morty S04E06"
+            onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87208.mp4')"
+          />
+          <p>Episódio 6: Never Ricking Morty</p>
+        </div>
+
+        <div class="movie">
+          <img
+            src="http://p6.vc/brb"
+            alt="Rick And Morty S04E07"
+            onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87209.mp4')"
+          />
+          <p>Episódio 7: Promortyus</p>
+        </div>
+
+        <div class="movie">
+          <img
+            src="http://p6.vc/brb"
+            alt="Rick And Morty S04E08"
+            onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87210.mp4')"
+          />
+          <p>Episódio 8: The Vat of Acid Episode</p>
+        </div>
+
+        <div class="movie">
+          <img
+            src="http://p6.vc/brb"
+            alt="Rick And Morty S04E09"
+            onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87211.mp4')"
+          />
+          <p>Episódio 9: Childrick of Mort</p>
+        </div>
+
+        <div class="movie">
+          <img
+            src="http://p6.vc/brb"
+            alt="Rick And Morty S04E10"
+            onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87212.mp4')"
+          />
+          <p>Episódio 10: Star Mort: Rickturn of the Jerri</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="season">
+      <img class="season-icon" src="ico.webp" alt="Ícone Temporada 01" />
+      <h1 class="season-title">Temporada 04</h1>
+    </div>
+    <div class="carousel">
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S04E01"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87203.mp4')"
+        />
+        <p>Rick And Morty S04E01</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S04E02"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87204.mp4')"
+        />
+        <p>Rick And Morty S04E02</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S04E03"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87205.mp4')"
+        />
+        <p>Rick And Morty S04E03</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S04E04"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87206.mp4')"
+        />
+        <p>Rick And Morty S04E04</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S04E05"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87207.mp4')"
+        />
+        <p>Rick And Morty S04E05</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S04E06"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87208.mp4')"
+        />
+        <p>Rick And Morty S04E06</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S04E07"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87209.mp4')"
+        />
+        <p>Rick And Morty S04E07</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S04E08"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87210.mp4')"
+        />
+        <p>Rick And Morty S04E08</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S04E09"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87211.mp4')"
+        />
+        <p>Rick And Morty S04E09</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S04E10"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87212.mp4')"
+        />
+        <p>Rick And Morty S04E10</p>
+      </div>
+    </div>
+
+    <div class="season">
+      <img class="season-icon" src="ico.webp" alt="Ícone Temporada 01" />
+      <h1 class="season-title">Temporada 05</h1>
+    </div>
+    <div class="carousel">
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S05E01"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87213.mp4')"
+        />
+        <p>Episódio 1: Mort Dinner Rick Andre</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S05E02"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87214.mp4')"
+        />
+        <p>Episódio 2: Mortyplicity</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S05E03"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87215.mp4')"
+        />
+        <p>Episódio 3: A Rickconvenient Mort</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S05E04"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87216.mp4')"
+        />
+        <p>Episódio 4: Rickdependence Spray</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S05E05"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87217.mp4')"
+        />
+        <p>Episódio 5: Amortycan Grickfitti</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S05E06"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87218.mp4')"
+        />
+        <p>Episódio 6: Rick & Morty's Thanksploitation Spectacular</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S05E07"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87219.mp4')"
+        />
+        <p>Episódio 7: Gotron Jerrysis Rickvangelion</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="https://image.tmdb.org/t/p/w300/oKf0YQVIQFYVIO2bgsDtxXLYLLJ.jpg"
+          alt="Rick And Morty S05E08"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/90797.mp4')"
+        />
+        <p>Episódio 8: Rickternal Friendshine of the Spotless Mort</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4ZU8vX420Tm2yilkmXejf7NKjL6.jpg"
+          alt="Rick And Morty S05E09"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/94423.mp4')"
+        />
+        <p>Episódio 9: Forgetting Sarick Mortshall</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6yPSy0ipNQfFUAX3tHSEf75rCdu.jpg"
+          alt="Rick And Morty S05E10"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/94424.mp4')"
+        />
+        <p>Episódio 10: Rickmurai Jack</p>
+      </div>
+    </div>
+
+    <div class="season">
+      <img class="season-icon" src="ico.webp" alt="Ícone Temporada 01" />
+      <h1 class="season-title">Temporada 06</h1>
+    </div>
+    <div class="carousel">
+      <div class="movie">
+        <img
+          src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6yPSy0ipNQfFUAX3tHSEf75rCdu.jpg"
+          alt="Rick And Morty S06E01"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/124317.mp4')"
+        />
+        <p>Episódio 1: Rickmurai Jack</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6yPSy0ipNQfFUAX3tHSEf75rCdu.jpg"
+          alt="Rick And Morty S06E02"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/125159.mp4')"
+        />
+        <p>Episódio 2: By the Rick, For the Rick</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6yPSy0ipNQfFUAX3tHSEf75rCdu.jpg"
+          alt="Rick And Morty S06E03"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/125290.mp4')"
+        />
+        <p>Episódio 3: Rick’s Made Morty Weird</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6yPSy0ipNQfFUAX3tHSEf75rCdu.jpg"
+          alt="Rick And Morty S06E04"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/126349.mp4')"
+        />
+        <p>Episódio 4: Mortyplicity</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6yPSy0ipNQfFUAX3tHSEf75rCdu.jpg"
+          alt="Rick And Morty S06E05"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/126350.mp4')"
+        />
+        <p>Episódio 5: Rickternal Friendshine of the Spotless Mort</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6yPSy0ipNQfFUAX3tHSEf75rCdu.jpg"
+          alt="Rick And Morty S06E06"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/126536.mp4')"
+        />
+        <p>Episódio 6: Rick and Morty's Tank & Spank Adventure</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6yPSy0ipNQfFUAX3tHSEf75rCdu.jpg"
+          alt="Rick And Morty S06E07"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/129598.mp4')"
+        />
+        <p>Episódio 7: Gotron Jerrysis Rickvangelion</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6yPSy0ipNQfFUAX3tHSEf75rCdu.jpg"
+          alt="Rick And Morty S06E08"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/129857.mp4')"
+        />
+        <p>Episódio 8: Rickternal Friendshine of the Spotless Mort</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6yPSy0ipNQfFUAX3tHSEf75rCdu.jpg"
+          alt="Rick And Morty S06E09"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/130637.mp4')"
+        />
+        <p>Episódio 9: Rickmurai Jack 2</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6yPSy0ipNQfFUAX3tHSEf75rCdu.jpg"
+          alt="Rick And Morty S06E10"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/130834.mp4')"
+        />
+        <p>Episódio 10: Rickmurai Jack 3</p>
+      </div>
     </div>
 
     <script>

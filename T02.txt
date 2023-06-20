@@ -1,0 +1,49 @@
+<div class="movie">
+  <img src="http://p6.vc/brb" alt="Rick And Morty S02E01" onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87183.mp4')" />
+  <p>Episódio 1: A Rickle in Time</p>
+</div>
+
+<div class="movie">
+  <img src="http://p6.vc/brb" alt="Rick And Morty S02E02" onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87184.mp4')" />
+  <p>Episódio 2: Mortynight Run</p>
+</div>
+
+<div class="movie">
+  <img src="http://p6.vc/brb" alt="Rick And Morty S02E03" onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87185.mp4')" />
+  <p>Episódio 3: Auto Erotic Assimilation</p>
+</div>
+
+<div class="movie">
+  <img src="http://p6.vc/brb" alt="Rick And Morty S02E04" onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87186.mp4')" />
+  <p>Episódio 4: Total Rickall</p>
+</div>
+
+<div class="movie">
+  <img src="http://p6.vc/brb" alt="Rick And Morty S02E05" onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87187.mp4')" />
+  <p>Episódio 5: Get Schwifty</p>
+</div>
+
+<div class="movie">
+  <img src="http://p6.vc/brb" alt="Rick And Morty S02E06" onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87188.mp4')" />
+  <p>Episódio 6: The Ricks Must Be Crazy</p>
+</div>
+
+<div class="movie">
+  <img src="http://p6.vc/brb" alt="Rick And Morty S02E07" onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87189.mp4')" />
+  <p>Episódio 7: Big Trouble in Little Sanchez</p>
+</div>
+
+<div class="movie">
+  <img src="http://p6.vc/brb" alt="Rick And Morty S02E08" onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87190.mp4')" />
+  <p>Episódio 8: Interdimensional Cable 2: Tempting Fate</p>
+</div>
+
+<div class="movie">
+  <img src="http://p6.vc/brb" alt="Rick And Morty S02E09" onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87191.mp4')" />
+  <p>Episódio 9: Look Who's Purging Now</p>
+</div>
+
+<div class="movie">
+  <img src="http://p6.vc/brb" alt="Rick And Morty S02E10" onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87192.mp4')" />
+  <p>Episódio 10: The Wedding Squanchers</p>
+</div>
