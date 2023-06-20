@@ -1,14 +1,163 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Filmes</title>
+    <style>
+      /* Estilos CSS para o layout */
+      .carousel {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+        padding: 10px;
+      }
+      .movie {
+        flex: 0 0 auto;
+        margin-right: 10px;
+        text-align: center;
+        width: 200px; /* Largura fixa do cartão do filme */
+        scroll-snap-align: start;
+      }
+      .movie img {
+        width: 100%; /* A imagem do filme ocupará 100% da largura do cartão */
+        height: auto; /* A altura da imagem será ajustada proporcionalmente */
+        cursor: pointer;
+      }
+      @media only screen and (max-width: 600px) {
+        /* Estilos específicos para dispositivos com largura máxima de 600px */
+        .movie {
+          width: 100%; /* O cartão do filme ocupará 100% da largura disponível */
+          margin: 10px 0; /* Adiciona espaço vertical entre os cartões */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>-vr_kelly</h1>
+    <div class="carousel">
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Rick And Morty S01E01"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87172.mp4')"
+        />
+        <p>Rick And Morty S01E01</p>
+      </div>
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Episódio: Rick And Morty S01E01"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87172.mp4')"
+        />
+        <p>Episódio: Rick And Morty S01E01</p>
+      </div>
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Episódio: Rick And Morty S01E01"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87172.mp4')"
+        />
+        <p>Episódio: Rick And Morty S01E01</p>
+      </div>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-</head>
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Episódio: Rick And Morty S01E02"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87173.mp4')"
+        />
+        <p>Episódio: Rick And Morty S01E02</p>
+      </div>
 
-<body>
-  <h1>Kelly 💡</h1>
-</body>
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Episódio: Rick And Morty S01E03"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87174.mp4')"
+        />
+        <p>Episódio: Rick And Morty S01E03</p>
+      </div>
 
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Episódio: Rick And Morty S01E04"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87175.mp4')"
+        />
+        <p>Episódio: Rick And Morty S01E04</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Episódio: Rick And Morty S01E05"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87176.mp4')"
+        />
+        <p>Episódio: Rick And Morty S01E05</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Episódio: Rick And Morty S01E06"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87177.mp4')"
+        />
+        <p>Episódio: Rick And Morty S01E06</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Episódio: Rick And Morty S01E07"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87178.mp4')"
+        />
+        <p>Episódio: Rick And Morty S01E07</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Episódio: Rick And Morty S01E08"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87179.mp4')"
+        />
+        <p>Episódio: Rick And Morty S01E08</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Episódio: Rick And Morty S01E09"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87180.mp4')"
+        />
+        <p>Episódio: Rick And Morty S01E09</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Episódio: Rick And Morty S01E10"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87181.mp4')"
+        />
+        <p>Episódio: Rick And Morty S01E10</p>
+      </div>
+
+      <div class="movie">
+        <img
+          src="http://p6.vc/brb"
+          alt="Episódio: Rick And Morty S01E11"
+          onclick="playVideo('http://pfsv.io:80/series/7394177872/88586/87182.mp4')"
+        />
+        <p>Episódio: Rick And Morty S01E11</p>
+      </div>
+
+      <!-- Resto dos cards de filmes... -->
+    </div>
+
+    <script>
+      function playVideo(url) {
+        window.open(url); // Abre o link do vídeo em uma nova janela ou guia
+      }
+    </script>
+  </body>
 </html>
