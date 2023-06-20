@@ -1,7 +1,3 @@
-#EXTM3U
-
-#EXTINF:-1 group-title="Testador IPTV", Gerado por Testador IPTV(PlayStore)
-https://play.google.com/store/apps/details?id=thalles.org.testadoriptv
 
 #EXTINF:-1 tvg-logo="http://p6.vc/dvh" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E01
 http://pfsv.io:80/series/3098083/40101/17396.mp4
