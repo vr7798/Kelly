@@ -2,10 +2,7 @@
 <playlist version="1" xmlns="http://xspf.org/ns/0/">
 <trackList>
 
-<track>
-<title>Gerado por Testador IPTV(PlayStore)</title>
-<location>https://play.google.com/store/apps/details?id=thalles.org.testadoriptv</location>
-</track>
+
 
 <track>
 <title>Rick And Morty S01E01</title>
