@@ -1,0 +1,125 @@
+#EXTM3U
+
+#EXTINF:-1 group-title="Testador IPTV", Gerado por Testador IPTV(PlayStore)
+https://play.google.com/store/apps/details?id=thalles.org.testadoriptv
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvh" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E01
+http://pfsv.io:80/series/3098083/40101/17396.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvi" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E02
+http://pfsv.io:80/series/3098083/40101/17397.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvj" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E03
+http://pfsv.io:80/series/3098083/40101/17398.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvk" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E04
+http://pfsv.io:80/series/3098083/40101/17399.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvl" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E05
+http://pfsv.io:80/series/3098083/40101/17400.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvm" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E06
+http://pfsv.io:80/series/3098083/40101/17401.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvn" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E07
+http://pfsv.io:80/series/3098083/40101/17402.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvo" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E08
+http://pfsv.io:80/series/3098083/40101/17403.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvp" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E09
+http://pfsv.io:80/series/3098083/40101/17404.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E10
+http://pfsv.io:80/series/3098083/40101/17405.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S02E01
+http://pfsv.io:80/series/3098083/40101/87415.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S02E02
+http://pfsv.io:80/series/3098083/40101/87416.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S02E03
+http://pfsv.io:80/series/3098083/40101/87417.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S02E04
+http://pfsv.io:80/series/3098083/40101/87418.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S02E05
+http://pfsv.io:80/series/3098083/40101/87419.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S02E06
+http://pfsv.io:80/series/3098083/40101/87420.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S02E07
+http://pfsv.io:80/series/3098083/40101/87421.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S02E08
+http://pfsv.io:80/series/3098083/40101/87422.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S02E09
+http://pfsv.io:80/series/3098083/40101/87423.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S02E10
+http://pfsv.io:80/series/3098083/40101/87424.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S03E01
+http://pfsv.io:80/series/3098083/40101/123787.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S03E02
+http://pfsv.io:80/series/3098083/40101/123788.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S03E03
+http://pfsv.io:80/series/3098083/40101/123789.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S03E04
+http://pfsv.io:80/series/3098083/40101/123790.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S03E05
+http://pfsv.io:80/series/3098083/40101/123791.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S03E06
+http://pfsv.io:80/series/3098083/40101/123792.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S03E07
+http://pfsv.io:80/series/3098083/40101/123793.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S03E08
+http://pfsv.io:80/series/3098083/40101/123794.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S03E09
+http://pfsv.io:80/series/3098083/40101/123795.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S03E10
+http://pfsv.io:80/series/3098083/40101/123796.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvj" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E03
+http://pfsv.io:80/series/3098083/40101/17398.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvk" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E04
+http://pfsv.io:80/series/3098083/40101/17399.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvl" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E05
+http://pfsv.io:80/series/3098083/40101/17400.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvm" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E06
+http://pfsv.io:80/series/3098083/40101/17401.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvn" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E07
+http://pfsv.io:80/series/3098083/40101/17402.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvo" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E08
+http://pfsv.io:80/series/3098083/40101/17403.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvp" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E09
+http://pfsv.io:80/series/3098083/40101/17404.mp4
+
+#EXTINF:-1 tvg-logo="http://p6.vc/dvq" group-title="Series | Netflix", (OFFLINE) Eu Nunca S01E10
+http://pfsv.io:80/series/3098083/40101/17405.mp4
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xb1CTiHMBodQijTCfrac23gHnSD.jpg" group-title="Series | Netflix", (OFFLINE) Eu Nunca S04E09
+http://pfsv.io:80/series/3098083/40101/147683.mp4
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/vYnkIKff7V1LDO0Ik9Rw9y1RPJp.jpg" group-title="Series | Netflix", (OFFLINE) Eu Nunca S04E10
+http://pfsv.io:80/series/3098083/40101/147684.mp4
+
