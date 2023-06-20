@@ -6,6 +6,9 @@ const PORT = process.env.PORT || 8080;
 app.get("/", function (rep, res) {
   res.sendFile(path.join(__dirname + "/src"));
 });
+app.get("/eununca", function (rep, res) {
+  res.sendFile(path.join(__dirname + "/src/eu.html"));
+});
 
 app.use(express.static("src"));
 
